@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INBUZZ | Home</title>
+    <link rel="stylesheet" href="css/global.css">
+    <style>
+        
+        .rooms {
+            display: flex;
+            width: 100%;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 10px;
+            padding: 10px 0;
+        }
+
+        .room_div {
+            width: 260px;
+            height: 220px;
+            background: rgb(218, 218, 218);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 10px 0;
+            border-radius: 10px;
+            box-shadow: 0px 2px 4px 0px gray;
+            margin: 10px;
+        }
+
+        .room_div:hover {
+            transform: scale(1.1);
+        }
+
+        .room_img img {
+            width: 240px;
+            height: auto;
+            border-radius: 10px 10px 0 0;
+        }
+
+        .room_img img:hover {
+            transform: scale(1.1);
+            transition: transform 1s;
+        }
+
+        .room_name {
+            margin: 10px 0 0 0;
+        }
+body {
+  background-image: url("public/images/m.jpg");
+}
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <div class="nav">
+            <a href="index.html" class="nav_items active">
+                <div>HOME</div>
+            </a>
+            <a href="files/contact.html" class="nav_items">
+                <div>CONTACT</div>
+            </a>
+            <a href="files/about.html" class="nav_items">
+                <div>ABOUT</div>
+            </a>
+        </div>
+        <div class="nav_logo">
+            INBUZZ
+        </div>
+    </div>
+    <div class="container">
+        <div class="title">ROOM BOOKING</div>
+        <div class="rooms">
+
+            <a href="files/murphy_room.html">
+                <div class="room_div">
+                    <div class="room_img">
+                        <img src="public/images/MURPHY ROOM.jpg" alt="MURPHY ROOM">
+                    </div>
+                    <div class="room_name">MURPHY ROOM</div>
+                </div>
+            </a>
+
+            <a href="files/studio_room.html">
+                <div class="room_div">
+                    <div class="room_img">
+                        <img src="public/images/1.jpg" alt="STUDIO ROOM">
+                    </div>
+                    <div class="room_name">STUDIO ROOM</div>
+                </div>
+            </a>
+
+            <a href="files/cabana_room.html">
+                <div class="room_div">
+                    <div class="room_img">
+                        <img src="public/images/5.jpg" alt="CABANA ROOM">
+                    </div>
+                    <div class="room_name">CABANA ROOM</div>
+                </div>
+            </a>
+
+            <a href="files/hollywood_room.html">
+            <div class="room_div">
+                <div class="room_img">
+                    <img src="public/images/9.jpg" alt="HOLLYWOOD ROOM">
+                </div>
+                <div class="room_name">HOLLYWOOD ROOM</div>
+            </div>
+            </a>
+
+            <a href="files/quad_room.html">
+            <div class="room_div">
+                <div class="room_img">
+                    <img src="public/images/15.jpg" alt="QUAD ROOM">
+                </div>
+                <div class="room_name">QUAD ROOM</div>
+            </div>
+            </a>
+
+            <a href="files/twin_room.html">
+            <div class="room_div">
+                <div class="room_img">
+                    <img src="public/images/17.jpg" alt="TWIN ROOM">
+                </div>
+                <div class="room_name">TWIN ROOM</div>
+            </div>
+            </a>
+
+            <a href="files/suite_room.html">
+            <div class="room_div">
+                <div class="room_img">
+                    <img src="public/images/21.jpg" alt="SUITE ROOM">
+                </div>
+                <div class="room_name">SUITE ROOM</div>
+            </div>
+            </a>
+
+            <a href="files/connecting_room.html">
+            <div class="room_div">
+                <div class="room_img">
+                    <img src="public/images/MURPHY ROOM.jpg" alt="CONNECTING ROOM">
+                </div>
+                <div class="room_name">CONNECTING ROOM</div>
+            </div>
+            </a>
+
+        </div>
+    </div>
+    <audio autoplay>
+        <source src="public/images/audio.mp3" type="audio/mp3">
+      </audio>
+</body>
+
+</html>

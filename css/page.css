@@ -1,0 +1,106 @@
+
+.room_name {
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(153, 2, 2);
+    text-align: center;
+    background: rgba(255, 255, 255, 0.938);
+}
+
+.room_details {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.details_para {
+    width: 45%;
+    font-size: 1.2rem;
+}
+.details_para ul{
+    list-style: none;
+}
+.details_para ul li{
+    width: 90%;
+    padding: 5px;
+    margin: 5px;
+    font-family: Segoe UI;
+    box-shadow: 0px 2px 4px 0px gray;
+    background-color: white;
+    border-radius: 20px 10px;
+    cursor: pointer;
+}
+.details_para ul li:hover{
+    transform: scale(1.1);
+}
+
+.details_img img {
+    width: 450px;
+    height: auto;
+    border-radius: 10% 50%;
+    justify-content: space-between;
+}
+
+.image_row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.image_row div {
+    width: 320px;
+    height: auto;
+     box-shadow: 0px 2px 4px 0px gray;
+    margin: 10px;
+    background: white;
+}
+.image_row div:hover{
+    transform: scale(1.1);
+}
+
+.image_row img {
+    width: 300px;
+    height: auto;
+    margin: 10px;
+}
+
+.room_vide {
+    display: flex;
+    justify-content: center;
+}
+
+.room_vide video {
+    width: 600px;
+    height: auto;
+    background: rgb(221, 221, 221);
+    box-shadow: 0px 2px 4px 0px gray;
+    padding: 10px;
+}
+
+.booking {
+    position: fixed;
+    font-size: 1rem;
+    left: 0;
+    top: 45%;
+    width: 20px;
+    height: auto;
+    background: rgb(112, 1, 1);
+    flex-direction: column;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 0 10px 10px 0;
+    cursor: pointer;
+    color: black;
+}
+.txtbooking{
+    color: wheat;
+}
+.txtfor{
+    color: coral;
+}
+.booking:hover{
+    transform: scale(1.1);
+}
